@@ -1,0 +1,521 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+.right>ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+.right>ul>li{
+    padding: 0 20px 0 20px;
+}
+.right>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.right>ul>li>a:hover{
+    color: rgb(106, 191, 240);
+}
+.left{
+    display: flex;
+}
+.left>img{
+    height: 50px;
+    width: 150px;
+}
+.for-search{
+    border: none;
+    padding: 5px;
+    border-radius: 10px 3px;
+}
+.for-search:focus{
+    border-color: white;
+    box-shadow: 0 0 8px rgb(137, 157, 177);
+}
+.search{
+    position: relative;
+}
+.search>i{
+    position: absolute;
+    cursor: pointer;
+    color: teal;
+}
+::placeholder{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+}
+.container>.bg{
+    height: 400px;
+    width: 100%;
+    opacity: 0.8;
+}
+.container>.bg-text{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+}
+/* menu bar */
+
+
+/* web2 */
+/* web2 */
+/* web2 */
+
+.header2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    background: #000;
+    color: white;
+    width: 98.6%;
+    position: relative;
+    bottom:  5px;
+    margin: 0 auto;
+}
+.sell2{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.second2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.second2>img{
+    width: 20%;
+    height: 50px;
+}
+.second2>.img2{
+    width: 32%;
+    background: rgb(224, 221, 221);
+    text-align: center;
+}
+.img2 p{
+    background: none;
+    color: #000;
+}
+.img2{
+    font-family: 'Handlee', cursive;
+}
+.btn2 button{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 1px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    background: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background: rgb(16, 219, 219);
+}
+.icon2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+}
+.right2{
+    padding: 10px;
+    background: #000;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+.left2{
+    padding: 10px;
+    background: #000;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.icon2 .right2:hover{
+    background: teal;
+}
+.left2:hover{
+    background: teal;
+}
+/* web4 */
+/*  */
+/*  */
+.banner4{
+    width: 95%;
+    margin: 0 auto;
+    background: whitesmoke;
+    box-shadow: 0px 5px 15px rgb(106, 191, 240);
+}
+.head-text4{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: orange;
+    margin: 0 auto;
+}
+.form-cover4{
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+}
+.left-side4{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-right: orange 1px solid;
+}
+.form-left4{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.formIn4{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+}
+.icon4 p{
+    background: none;
+    color: black;
+}
+.text-top4{
+    width: 98%;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+
+}
+.full-form{
+    padding: 10px;
+    outline: none;
+}
+.text-top4 .p4{
+    background: none;
+    color: black;
+    position: relative;
+    right: 15px;
+    
+}
+textarea{
+    width: 98%;
+    box-sizing: border-box;
+    resize: none;
+    margin: 0 auto;
+}
+.butn{
+    width: 97.5%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.butn button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 5px;
+    background: teal;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+.butn button:hover{
+    background: orange;
+    cursor: pointer;
+    
+}
+.form-cover{
+    display: flex;
+}
+.right-side4 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side4{
+    width: 40%;
+}
+.icon4{
+    display: flex;
+    align-items: center;
+}
+.con4{
+    width: 90%;
+    margin: 0 auto;
+}
+.img-footer4 img{
+    width: 10%;
+
+}
+.icon4 i{
+    padding: 10px;
+    background: rgb(187, 187, 187);
+    border-radius: 30px;
+}
+.img-footer4{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.thank{
+    width: 50%;
+    margin-left: 80px;
+}
+.iconIn{
+    background: rgb(194, 191, 191);
+    border-radius: 35px;
+    padding: 10px;
+}
+.icon4 p{
+    margin-left: 20px;
+}
+
+/* web3 */
+/* web3 */
+/* web3 */
+/* */
+
+.right-side3{
+    display: flex;
+    gap: 10px;
+}
+.banner3{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.left-img3{
+    width: 100%;
+    height: 70vh;
+    box-shadow: 5px 5px rgb(190, 185, 185);
+    border-radius: 0px 5px;
+}
+.logo{
+    position: relative;
+    left:26vh;
+    width: 50%;
+    height: 25vh;
+    bottom: 70vh;
+}
+.text3{
+    /* background: rgb(11, 89, 141); */
+    margin-top: -15px;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+.text3>strong,p,.header1{
+    margin-left: 10px;
+}
+.text3>strong{
+    margin: 0 auto;
+}
+.card-footer3 p{
+    background: none;
+    color: black;
+}
+.btn3 button{
+    padding: 10px;
+    background: rgb(0, 128, 53);
+    position: relative;
+    top: -5px;
+    left: 10px;
+    border: none;
+    border-radius: 10px 5px;
+    color: white;
+}
+.btn3 button:hover{
+    cursor: pointer;
+    background: teal;
+}
+.card3{
+    width: 53%;
+    height: 65vh;
+}
+.icon{
+    position: relative;
+    bottom: 55vh;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background: rgb(216, 27, 27);
+    cursor: pointer;
+}
+.icon11{
+    right: 50vh;
+    position: relative;
+}
+.icon22{
+    left: 33vh;
+    position: relative;
+}
+.icon:hover{
+    background: orange;
+
+}
+.but-footer button{
+    padding: 10px;
+    position: relative;
+    left: 20vh;
+    bottom: 2vh;
+    border-radius: 10px 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+.but-footer button:hover{
+    background: orange;
+}
+.header-footer3{
+    position: relative;
+    top: -60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Luckiest Guy', cursive;
+    left: 15px;
+}
+.container3{
+    display: flex;
+    width: 98%;
+    justify-content: center;
+}
+.card-footer3{
+    width: 30%;
+    
+}
+.card-footer3>img{
+    width: 80%;
+    height: 35vh;
+    
+}
+.star-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.star{
+    width: 90%;
+    color: orange;
+}
+.card-footer3>p{
+    width: 90%;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+.pri{
+    color: rgb(255, 19, 19);
+    font-weight: bold;
+}
+.but-footer{
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+/* web1 */
+
+.sell1>ul{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    margin-top: -5px;
+    height: 50px;
+    align-items: center;
+}
+.list-model{
+    margin-top: -35px;
+}
+.list-model>.installment{
+    position: relative;
+    bottom: 25%;
+    left: 30%;
+    height: 35%;
+}
+.list-model>.discount{
+    position: relative;
+    bottom: 30%;
+}
+.element{
+    background: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 10px 2px;
+    font-family: 'Sigmar One', cursive;
+    font-weight: bold;
+}
+.sell1{
+    margin: 0 auto;
+    display: flex;
+}
+.header1{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    color: rgb(12, 107, 151);
+}
+.sell1{
+    margin-top: -5px;
+    border-top: 3px solid orange;
+}
+.second1{
+    display: flex;
+    gap: 10px;
+}
+.second1>.list-model>li{
+    font-size: 25px;
+    margin-left: 55px;
+    font-family: 'Handlee', cursive;
+}
+.information>p>strong,p{
+    background: rgb(12, 107, 151);
+    padding: 5px;
+    color: white;
+}
+.information>p{
+   font-family: 'Handlee', cursive;
+
+}
+.btn1 button{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 10px 5px;
+    position: relative;
+    left: 25%;
+    bottom:8px;
+    cursor: pointer;
+    font-family: 'Handlee', cursive;
+    font-size: 15px;
+    background: rgb(12, 107, 151);
+    color: white;
+}
+.btn1 button:hover{
+    background: rgb(111, 201, 243);
+}
+
+/* web1 */
